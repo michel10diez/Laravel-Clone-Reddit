@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -16,6 +16,8 @@
 			</div>
 		</div>
 		<hr>
+
+		@include('layouts._errors')
 		
 		@yield('content')<!--******en la parte donde se va a mostrar el contenido a cada view-->
 	</div>
